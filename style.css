@@ -90,7 +90,7 @@ body::before {
     }
     
     .tweets {
-      grid-template-columns: 400px;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
   }
 
@@ -114,6 +114,6 @@ body::before {
     .tweets {
       margin: auto;
       overflow: hidden;
-      grid-template-columns: 600px;
+      grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     }
   }
